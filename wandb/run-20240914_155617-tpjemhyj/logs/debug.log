@@ -1,0 +1,25 @@
+2024-09-14 15:56:17,135 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Current SDK version is 0.18.0
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Configure stats pid to 17953
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Loading settings from /Users/chenbaiyan/.config/wandb/settings
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Loading settings from /Users/chenbaiyan/Desktop/ml_test/wandb/settings
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program_relpath': 'cases_ml.py', 'program_abspath': '/Users/chenbaiyan/Desktop/ml_test/cases_ml.py', 'program': '/Users/chenbaiyan/Desktop/ml_test/cases_ml.py'}
+2024-09-14 15:56:17,136 INFO    MainThread:17953 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-09-14 15:56:17,137 INFO    MainThread:17953 [wandb_init.py:_log_setup():525] Logging user logs to /Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155617-tpjemhyj/logs/debug.log
+2024-09-14 15:56:17,137 INFO    MainThread:17953 [wandb_init.py:_log_setup():526] Logging internal logs to /Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155617-tpjemhyj/logs/debug-internal.log
+2024-09-14 15:56:17,137 INFO    MainThread:17953 [wandb_init.py:init():609] calling init triggers
+2024-09-14 15:56:17,137 INFO    MainThread:17953 [wandb_init.py:init():616] wandb.init called with sweep_config: {}
+config: {}
+2024-09-14 15:56:17,138 INFO    MainThread:17953 [wandb_init.py:init():659] starting backend
+2024-09-14 15:56:17,138 INFO    MainThread:17953 [wandb_init.py:init():663] setting up manager
+2024-09-14 15:56:17,141 INFO    MainThread:17953 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-09-14 15:56:17,144 INFO    MainThread:17953 [wandb_init.py:init():671] backend started and connected
+2024-09-14 15:56:17,149 INFO    MainThread:17953 [wandb_init.py:init():766] updated telemetry
+2024-09-14 15:56:17,151 INFO    MainThread:17953 [wandb_init.py:init():799] communicating run to backend with 90.0 second timeout
+2024-09-14 15:56:17,453 INFO    MainThread:17953 [wandb_init.py:init():850] starting run threads in backend
+2024-09-14 15:56:17,545 INFO    MainThread:17953 [wandb_run.py:_console_start():2466] atexit reg
+2024-09-14 15:56:17,545 INFO    MainThread:17953 [wandb_run.py:_redirect():2312] redirect: wrap_raw
+2024-09-14 15:56:17,545 INFO    MainThread:17953 [wandb_run.py:_redirect():2377] Wrapping output streams.
+2024-09-14 15:56:17,546 INFO    MainThread:17953 [wandb_run.py:_redirect():2402] Redirects installed.
+2024-09-14 15:56:17,548 INFO    MainThread:17953 [wandb_init.py:init():893] run started, returning control to user process

@@ -1,0 +1,21 @@
+{"time":"2024-09-14T16:59:53.281164+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:59:53.281278+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_165953-f0k62g0n/logs/debug-core.log"}
+{"time":"2024-09-14T16:59:53.281461+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:59:53.281469+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_165953-f0k62g0n/logs/debug-core.log"}
+{"time":"2024-09-14T16:59:53.288756+08:00","level":"INFO","msg":"created new stream","id":"f0k62g0n"}
+{"time":"2024-09-14T16:59:53.288805+08:00","level":"INFO","msg":"stream: started","id":"f0k62g0n"}
+{"time":"2024-09-14T16:59:53.288822+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"f0k62g0n"}}
+{"time":"2024-09-14T16:59:53.288835+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"f0k62g0n"}}
+{"time":"2024-09-14T16:59:53.288852+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"f0k62g0n"}}
+{"time":"2024-09-14T16:59:53.685107+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T16:59:53.686552+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T16:59:54.693033+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T16:59:54.693097+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T16:59:54.916846+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T16:59:54.9169+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T16:59:54.916914+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T16:59:57.517053+08:00","level":"INFO","msg":"stream: closing","id":"f0k62g0n"}
+{"time":"2024-09-14T16:59:57.517083+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"f0k62g0n"}}
+{"time":"2024-09-14T16:59:57.517142+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"f0k62g0n"}}
+{"time":"2024-09-14T16:59:57.517139+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"f0k62g0n"}}
+{"time":"2024-09-14T16:59:57.517477+08:00","level":"INFO","msg":"stream: closed","id":"f0k62g0n"}

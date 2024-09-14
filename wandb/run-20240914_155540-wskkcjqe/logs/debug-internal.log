@@ -1,0 +1,12 @@
+{"time":"2024-09-14T15:55:40.111007+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:55:40.111032+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155540-wskkcjqe/logs/debug-core.log"}
+{"time":"2024-09-14T15:55:40.111102+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:55:40.111108+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155540-wskkcjqe/logs/debug-core.log"}
+{"time":"2024-09-14T15:55:40.115212+08:00","level":"INFO","msg":"created new stream","id":"wskkcjqe"}
+{"time":"2024-09-14T15:55:40.115254+08:00","level":"INFO","msg":"stream: started","id":"wskkcjqe"}
+{"time":"2024-09-14T15:55:40.115261+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wskkcjqe"}}
+{"time":"2024-09-14T15:55:40.115297+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wskkcjqe"}}
+{"time":"2024-09-14T15:55:40.11527+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wskkcjqe"}}
+{"time":"2024-09-14T15:55:40.425723+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T15:55:40.426546+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T15:55:50.537139+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}

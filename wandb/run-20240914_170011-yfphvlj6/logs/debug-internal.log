@@ -1,0 +1,21 @@
+{"time":"2024-09-14T17:00:11.755851+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T17:00:11.755891+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_170011-yfphvlj6/logs/debug-core.log"}
+{"time":"2024-09-14T17:00:11.756045+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T17:00:11.756132+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_170011-yfphvlj6/logs/debug-core.log"}
+{"time":"2024-09-14T17:00:11.763009+08:00","level":"INFO","msg":"created new stream","id":"yfphvlj6"}
+{"time":"2024-09-14T17:00:11.763045+08:00","level":"INFO","msg":"stream: started","id":"yfphvlj6"}
+{"time":"2024-09-14T17:00:11.763057+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yfphvlj6"}}
+{"time":"2024-09-14T17:00:11.76307+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"yfphvlj6"}}
+{"time":"2024-09-14T17:00:11.763077+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"yfphvlj6"}}
+{"time":"2024-09-14T17:00:12.037766+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T17:00:12.038947+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T17:00:13.038304+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T17:00:13.038483+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T17:00:13.240276+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T17:00:13.24032+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T17:00:13.240334+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T17:00:15.172415+08:00","level":"INFO","msg":"stream: closing","id":"yfphvlj6"}
+{"time":"2024-09-14T17:00:15.17247+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"yfphvlj6"}}
+{"time":"2024-09-14T17:00:15.172502+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yfphvlj6"}}
+{"time":"2024-09-14T17:00:15.172527+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"yfphvlj6"}}
+{"time":"2024-09-14T17:00:15.172816+08:00","level":"INFO","msg":"stream: closed","id":"yfphvlj6"}

@@ -1,0 +1,21 @@
+{"time":"2024-09-14T17:00:22.661315+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T17:00:22.661493+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_170022-hjmdlol3/logs/debug-core.log"}
+{"time":"2024-09-14T17:00:22.661734+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T17:00:22.661753+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_170022-hjmdlol3/logs/debug-core.log"}
+{"time":"2024-09-14T17:00:22.667666+08:00","level":"INFO","msg":"created new stream","id":"hjmdlol3"}
+{"time":"2024-09-14T17:00:22.667723+08:00","level":"INFO","msg":"stream: started","id":"hjmdlol3"}
+{"time":"2024-09-14T17:00:22.667734+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hjmdlol3"}}
+{"time":"2024-09-14T17:00:22.667758+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"hjmdlol3"}}
+{"time":"2024-09-14T17:00:22.667773+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"hjmdlol3"}}
+{"time":"2024-09-14T17:00:22.951347+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T17:00:22.952784+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T17:00:23.981805+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T17:00:23.981956+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T17:00:24.302239+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T17:00:24.302292+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T17:00:24.302303+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T17:00:27.021659+08:00","level":"INFO","msg":"stream: closing","id":"hjmdlol3"}
+{"time":"2024-09-14T17:00:27.021704+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"hjmdlol3"}}
+{"time":"2024-09-14T17:00:27.021746+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"hjmdlol3"}}
+{"time":"2024-09-14T17:00:27.021733+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"hjmdlol3"}}
+{"time":"2024-09-14T17:00:27.021986+08:00","level":"INFO","msg":"stream: closed","id":"hjmdlol3"}

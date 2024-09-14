@@ -1,0 +1,8 @@
+Best Parameters: {'alpha': 10.0}
+Mean Squared Error (MSE): 472.40
+Mean Absolute Error (MAE): 14.32
+Traceback (most recent call last):
+  File "/Users/chenbaiyan/Desktop/ml_test/cases_ml.py", line 66, in <module>
+    plt.plot(y_test.values.values, label="Actual", linestyle='--', marker='o')
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'values'

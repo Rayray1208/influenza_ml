@@ -1,0 +1,19 @@
+Best Parameters: {'alpha': 10.0}
+Mean Squared Error (MSE): 472.40
+Mean Absolute Error (MAE): 14.32
+Traceback (most recent call last):
+  File "/Users/chenbaiyan/Desktop/ml_test/cases_ml.py", line 72, in <module>
+    plt.show()
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 612, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 3553, in show
+    cls.mainloop()
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/matplotlib/backends/backend_macosx.py", line 178, in start_main_loop
+    with _allow_interrupt_macos():
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 1672, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+KeyboardInterrupt

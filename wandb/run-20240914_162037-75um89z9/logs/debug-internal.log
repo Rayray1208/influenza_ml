@@ -1,0 +1,23 @@
+{"time":"2024-09-14T16:20:37.550084+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:20:37.550159+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_162037-75um89z9/logs/debug-core.log"}
+{"time":"2024-09-14T16:20:37.550297+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:20:37.550309+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_162037-75um89z9/logs/debug-core.log"}
+{"time":"2024-09-14T16:20:37.559343+08:00","level":"INFO","msg":"created new stream","id":"75um89z9"}
+{"time":"2024-09-14T16:20:37.559394+08:00","level":"INFO","msg":"stream: started","id":"75um89z9"}
+{"time":"2024-09-14T16:20:37.559406+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"75um89z9"}}
+{"time":"2024-09-14T16:20:37.559447+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"75um89z9"}}
+{"time":"2024-09-14T16:20:37.559432+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"75um89z9"}}
+{"time":"2024-09-14T16:20:37.881466+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T16:20:37.883041+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T16:20:48.005623+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T16:20:57.990227+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T16:21:06.035222+08:00","level":"INFO","msg":"stream: closing","id":"75um89z9"}
+{"time":"2024-09-14T16:21:06.0354+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T16:21:06.035517+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T16:21:06.270314+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T16:21:06.270385+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T16:21:06.270398+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T16:21:07.677835+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"75um89z9"}}
+{"time":"2024-09-14T16:21:07.67782+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"75um89z9"}}
+{"time":"2024-09-14T16:21:07.67783+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"75um89z9"}}
+{"time":"2024-09-14T16:21:07.678259+08:00","level":"INFO","msg":"stream: closed","id":"75um89z9"}

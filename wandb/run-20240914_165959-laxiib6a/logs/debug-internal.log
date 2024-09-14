@@ -1,0 +1,21 @@
+{"time":"2024-09-14T16:59:59.233261+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:59:59.233304+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_165959-laxiib6a/logs/debug-core.log"}
+{"time":"2024-09-14T16:59:59.233361+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:59:59.233366+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_165959-laxiib6a/logs/debug-core.log"}
+{"time":"2024-09-14T16:59:59.239499+08:00","level":"INFO","msg":"created new stream","id":"laxiib6a"}
+{"time":"2024-09-14T16:59:59.239533+08:00","level":"INFO","msg":"stream: started","id":"laxiib6a"}
+{"time":"2024-09-14T16:59:59.239582+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"laxiib6a"}}
+{"time":"2024-09-14T16:59:59.239537+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"laxiib6a"}}
+{"time":"2024-09-14T16:59:59.239559+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"laxiib6a"}}
+{"time":"2024-09-14T16:59:59.556757+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T16:59:59.558217+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T17:00:00.559501+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T17:00:00.559631+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T17:00:00.758742+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T17:00:00.758797+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T17:00:00.758812+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T17:00:03.203557+08:00","level":"INFO","msg":"stream: closing","id":"laxiib6a"}
+{"time":"2024-09-14T17:00:03.203587+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"laxiib6a"}}
+{"time":"2024-09-14T17:00:03.203616+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"laxiib6a"}}
+{"time":"2024-09-14T17:00:03.203611+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"laxiib6a"}}
+{"time":"2024-09-14T17:00:03.203788+08:00","level":"INFO","msg":"stream: closed","id":"laxiib6a"}

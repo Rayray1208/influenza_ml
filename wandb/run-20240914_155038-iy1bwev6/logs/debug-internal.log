@@ -1,0 +1,38 @@
+{"time":"2024-09-14T15:50:38.342706+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:50:38.342737+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155038-iy1bwev6/logs/debug-core.log"}
+{"time":"2024-09-14T15:50:38.34279+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:50:38.342795+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155038-iy1bwev6/logs/debug-core.log"}
+{"time":"2024-09-14T15:50:38.347058+08:00","level":"INFO","msg":"created new stream","id":"iy1bwev6"}
+{"time":"2024-09-14T15:50:38.3471+08:00","level":"INFO","msg":"stream: started","id":"iy1bwev6"}
+{"time":"2024-09-14T15:50:38.347106+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"iy1bwev6"}}
+{"time":"2024-09-14T15:50:38.347181+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"iy1bwev6"}}
+{"time":"2024-09-14T15:50:38.347153+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"iy1bwev6"}}
+{"time":"2024-09-14T15:50:38.69687+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T15:50:38.697665+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T15:50:48.807529+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:50:58.817516+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:51:08.817278+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:51:18.791038+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:51:28.803656+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:51:38.806353+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:51:48.795209+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:51:58.804254+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:52:08.802588+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:52:18.80491+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:52:28.803059+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:52:38.789755+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:52:48.798414+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:52:58.80208+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:53:08.806684+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:53:18.793648+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:53:28.816068+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:53:38.801526+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:53:48.803457+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:53:58.819539+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:54:08.803442+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:54:18.800922+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:54:28.801408+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:54:38.801537+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:54:48.797973+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:54:58.797553+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T15:55:08.796882+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}

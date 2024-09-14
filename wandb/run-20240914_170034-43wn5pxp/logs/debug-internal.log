@@ -1,0 +1,21 @@
+{"time":"2024-09-14T17:00:34.976946+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T17:00:34.977074+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_170034-43wn5pxp/logs/debug-core.log"}
+{"time":"2024-09-14T17:00:34.977414+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T17:00:34.97743+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_170034-43wn5pxp/logs/debug-core.log"}
+{"time":"2024-09-14T17:00:34.983559+08:00","level":"INFO","msg":"created new stream","id":"43wn5pxp"}
+{"time":"2024-09-14T17:00:34.983593+08:00","level":"INFO","msg":"stream: started","id":"43wn5pxp"}
+{"time":"2024-09-14T17:00:34.983602+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"43wn5pxp"}}
+{"time":"2024-09-14T17:00:34.983644+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"43wn5pxp"}}
+{"time":"2024-09-14T17:00:34.983611+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"43wn5pxp"}}
+{"time":"2024-09-14T17:00:35.261718+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T17:00:35.262853+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T17:00:35.417709+08:00","level":"INFO","msg":"stream: closing","id":"43wn5pxp"}
+{"time":"2024-09-14T17:00:35.417766+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T17:00:35.417864+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T17:00:35.987519+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T17:00:35.987568+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T17:00:35.987599+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T17:00:37.500891+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"43wn5pxp"}}
+{"time":"2024-09-14T17:00:37.500878+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"43wn5pxp"}}
+{"time":"2024-09-14T17:00:37.500898+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"43wn5pxp"}}
+{"time":"2024-09-14T17:00:37.501135+08:00","level":"INFO","msg":"stream: closed","id":"43wn5pxp"}

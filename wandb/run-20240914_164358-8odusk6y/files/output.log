@@ -1,0 +1,37 @@
+Mean Absolute Percentage Error (MAPE): 155.41%
+[34m[1mwandb[0m: [32m[41mERROR[0m plotly is required to log interactive plots, install with: `pip install plotly` or convert the plot to an image with `wandb.Image(plt)`
+Traceback (most recent call last):
+  File "/Users/chenbaiyan/Desktop/ml_test/cases_ml.py", line 62, in <module>
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 453, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 404, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 394, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 1933, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 1652, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 1524, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/interface/interface.py", line 629, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/data_types/utils.py", line 52, in history_dict_to_json
+    payload[key] = val_to_json(
+                   ^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/data_types/utils.py", line 86, in val_to_json
+    val = Plotly.make_plot_media(val)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/sdk/data_types/plotly.py", line 49, in make_plot_media
+    val = util.matplotlib_to_plotly(val)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/util.py", line 516, in matplotlib_to_plotly
+    tools = get_module(
+            ^^^^^^^^^^^
+  File "/Users/chenbaiyan/Desktop/ml_test/.venv/lib/python3.12/site-packages/wandb/util.py", line 279, in get_module
+    raise wandb.Error(required)
+wandb.errors.Error: plotly is required to log interactive plots, install with: `pip install plotly` or convert the plot to an image with `wandb.Image(plt)`

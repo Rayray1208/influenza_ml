@@ -1,0 +1,12 @@
+{"time":"2024-09-14T15:56:00.883993+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:56:00.884028+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155600-zv8cgh62/logs/debug-core.log"}
+{"time":"2024-09-14T15:56:00.884127+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:56:00.884136+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155600-zv8cgh62/logs/debug-core.log"}
+{"time":"2024-09-14T15:56:00.888745+08:00","level":"INFO","msg":"created new stream","id":"zv8cgh62"}
+{"time":"2024-09-14T15:56:00.888783+08:00","level":"INFO","msg":"stream: started","id":"zv8cgh62"}
+{"time":"2024-09-14T15:56:00.888814+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"zv8cgh62"}}
+{"time":"2024-09-14T15:56:00.888802+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zv8cgh62"}}
+{"time":"2024-09-14T15:56:00.888808+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"zv8cgh62"}}
+{"time":"2024-09-14T15:56:01.241818+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T15:56:01.242584+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T15:56:11.354599+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}

@@ -1,0 +1,28 @@
+{
+  "os":  "macOS-14.4-arm64-arm-64bit",
+  "python":  "3.12.6",
+  "startedAt":  "2024-09-14T08:43:58.406576Z",
+  "program":  "/Users/chenbaiyan/Desktop/ml_test/cases_ml.py",
+  "codePath":  "cases_ml.py",
+  "email":  "sea041598@gmail.com",
+  "root":  "/Users/chenbaiyan/Desktop/ml_test",
+  "host":  "chenbaiyandeMacBook-Air.local",
+  "username":  "chenbaiyan",
+  "executable":  "/Users/chenbaiyan/Desktop/ml_test/.venv/bin/python",
+  "codePathLocal":  "cases_ml.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "91774459904"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  }
+}

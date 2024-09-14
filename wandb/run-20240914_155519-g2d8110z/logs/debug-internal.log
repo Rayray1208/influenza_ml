@@ -1,0 +1,12 @@
+{"time":"2024-09-14T15:55:19.980994+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:55:19.981019+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155519-g2d8110z/logs/debug-core.log"}
+{"time":"2024-09-14T15:55:19.981571+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T15:55:19.981619+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_155519-g2d8110z/logs/debug-core.log"}
+{"time":"2024-09-14T15:55:19.985814+08:00","level":"INFO","msg":"created new stream","id":"g2d8110z"}
+{"time":"2024-09-14T15:55:19.985853+08:00","level":"INFO","msg":"stream: started","id":"g2d8110z"}
+{"time":"2024-09-14T15:55:19.98586+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"g2d8110z"}}
+{"time":"2024-09-14T15:55:19.98589+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"g2d8110z"}}
+{"time":"2024-09-14T15:55:19.985899+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"g2d8110z"}}
+{"time":"2024-09-14T15:55:20.337808+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T15:55:20.33863+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T15:55:30.442812+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}

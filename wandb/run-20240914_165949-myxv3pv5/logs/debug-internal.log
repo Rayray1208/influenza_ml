@@ -1,0 +1,26 @@
+{"time":"2024-09-14T16:59:49.726332+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:59:49.726363+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_165949-myxv3pv5/logs/debug-core.log"}
+{"time":"2024-09-14T16:59:49.726442+08:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-14T16:59:49.726448+08:00","level":"INFO","msg":"created symlink","path":"/Users/chenbaiyan/Desktop/ml_test/wandb/run-20240914_165949-myxv3pv5/logs/debug-core.log"}
+{"time":"2024-09-14T16:59:49.739403+08:00","level":"INFO","msg":"created new stream","id":"myxv3pv5"}
+{"time":"2024-09-14T16:59:49.739493+08:00","level":"INFO","msg":"stream: started","id":"myxv3pv5"}
+{"time":"2024-09-14T16:59:49.739503+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"myxv3pv5"}}
+{"time":"2024-09-14T16:59:49.739554+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"myxv3pv5"}}
+{"time":"2024-09-14T16:59:49.73952+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"myxv3pv5"}}
+{"time":"2024-09-14T16:59:50.025498+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-14T16:59:50.028042+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-14T17:00:00.122475+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T17:00:10.129456+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T17:00:20.139584+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T17:00:30.137388+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T17:00:40.117125+08:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-14T17:00:49.649862+08:00","level":"INFO","msg":"stream: closing","id":"myxv3pv5"}
+{"time":"2024-09-14T17:00:49.649967+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T17:00:49.650041+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T17:00:49.842761+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T17:00:49.842811+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T17:00:49.842824+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T17:00:51.205775+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"myxv3pv5"}}
+{"time":"2024-09-14T17:00:51.20589+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"myxv3pv5"}}
+{"time":"2024-09-14T17:00:51.205855+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"myxv3pv5"}}
+{"time":"2024-09-14T17:00:51.207558+08:00","level":"INFO","msg":"stream: closed","id":"myxv3pv5"}
