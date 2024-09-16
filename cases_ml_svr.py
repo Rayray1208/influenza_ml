@@ -61,6 +61,7 @@ plt.title('Actual vs Predicted Confirmed Cases')
 
 # 保存图像并上传至 wandb
 plt.savefig('plot_svr.png')
+plt.show
 wandb.log({"chart": wandb.Image('plot_svr.png')})
 
 # 完成 wandb 实验
