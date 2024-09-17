@@ -98,12 +98,12 @@ def main():
     wandb.log({"Final MAPE": mape, "Final MSE": mse, "Final MAE": mae})
 
     plt.figure(figsize=(10,6))
-    plt.plot(y_test.values, label="實際值", linestyle='--', marker='o')
-    plt.plot(y_pred, label="預測值", linestyle='--', marker='x')
+    plt.plot(y_test.values, label="Actual", linestyle='--', marker='o')
+    plt.plot(y_pred, label="Predicted", linestyle='--', marker='x')
     plt.legend()
-    plt.xlabel('樣本序號')
-    plt.ylabel('確診病例數')
-    plt.title('實際值 vs 預測值')
+    plt.xlabel('sample index')
+    plt.ylabel('comfirmed cases')
+    plt.title('Actual vs Predicted comfirmed cases')
     plt.savefig('plot_xgboost.png')
     plt.close()
 
