@@ -24,11 +24,11 @@ def mape_scorer(y_true, y_pred):
 def main():
     wandb.init(project="flu_cases_prediction", name="xgboost_model")
 
-    data = pd.read_csv("data.csv")
+    data = pd.read_csv("merged_file.csv")
     data['Year'] = data['YearWeek'].astype(str).str[:4].astype(int)
     data['Week'] = data['YearWeek'].astype(str).str[4:].astype(int)
 
-    X = data[['Year', 'Week', 'ExcludedCases', 'PendingCases']]
+    X = data[['Year', 'Week', 'ExcludedCases', 'PendingCases',"AverageTemperature"]]
     y = data['ConfirmedCases']
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -37,13 +37,13 @@ def main():
 
     # 原先的 param_grid，假设你基于图片得出该组合
     param_grid = {
-        'n_estimators': [100, 300, 500, 700, 1000],
-        'max_depth': [5, 10, 15, 20],
-        'learning_rate': [0.01, 0.05, 0.1, 0.2],
-        'subsample': [0.6, 0.8, 1.0],
-        'colsample_bytree': [0.6, 0.8, 1.0],
-        'gamma': [0, 0.1, 0.3, 0.5],
-        'min_child_weight': [1, 3, 5, 7]
+    'n_estimators': [500],
+    'max_depth': [20],
+    'learning_rate': [0.1],
+    'subsample': [0.8],
+    'colsample_bytree': [0.8],
+    'gamma': [0.1],
+    'min_child_weight': [3]
     }
 
     grid_search = GridSearchCV(
@@ -73,6 +73,15 @@ def main():
     print(f"最接近 40% 的参数组合是: {closest_params}, 对应的 MAPE 是: {closest_mape:.2f}%")
     print("最佳参数组合:", best_params)
     print(f"最佳 MAPE: {best_mape:.2f}%")
+    for i, (params, mean_score, std_score) in enumerate(zip(grid_search.cv_results_['params'],
+                                                            grid_search.cv_results_['mean_test_score'],
+                                                            grid_search.cv_results_['std_test_score'])):
+        wandb.log({
+            "Fold": i,
+            "Mean MAPE": -mean_score,
+            "Std MAPE": std_score,
+            "Parameters": params
+        })
     
     # 用最接近 70% 的参数来训练模型
     best_model = grid_search.best_estimator_

@@ -32,13 +32,13 @@ def main():
     model = xgb.XGBRegressor(objective='reg:squarederror', random_state=42)
 
     param_grid = {
-        'n_estimators': [100, 300, 500, 700, 1000],
-        'max_depth': [5, 10, 15, 20],
-        'learning_rate': [0.01, 0.05, 0.1, 0.2],
-        'subsample': [0.6, 0.8, 1.0],
-        'colsample_bytree': [0.6, 0.8, 1.0],
-        'gamma': [0, 0.1, 0.3, 0.5],
-        'min_child_weight': [1, 3, 5, 7]
+    'n_estimators': [500],
+    'max_depth': [20],
+    'learning_rate': [0.1],
+    'subsample': [0.8],
+    'colsample_bytree': [0.8],
+    'gamma': [0.1],
+    'min_child_weight': [3]
     }
 
     grid_search = GridSearchCV(
