@@ -63,11 +63,11 @@ model = xgb.XGBRegressor(objective='reg:squarederror', random_state=42)
 param_grid = {
     'n_estimators': [500],
     'max_depth': [20],
-    'learning_rate': [0.2],
+    'learning_rate': [0.1],
     'subsample': [0.8],
-    'colsample_bytree': [1.0],
-    'gamma': [0.5],
-    'min_child_weight': [5]
+    'colsample_bytree': [0.8],
+    'gamma': [0.1],
+    'min_child_weight': [3]
 }
 
 # 创建 GridSearchCV 对象，使用自定义的 MAPE 评分器

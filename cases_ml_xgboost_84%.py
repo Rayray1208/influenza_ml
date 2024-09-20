@@ -6,9 +6,6 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, make_scorer
 import wandb
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.rcParams['font.sans-serif'] = ['SimHei']  # 指定字体
-matplotlib.rcParams['axes.unicode_minus'] = False  # 解决负号 '-' 显示问题
-
 
 def calculate_mape(y_true, y_pred, epsilon=1e-10):
     y_true, y_pred = np.array(y_true), np.array(y_pred)
