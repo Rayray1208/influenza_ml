@@ -101,7 +101,7 @@ def main():
     plt.xlabel('sample index')
     plt.ylabel('comfirmed cases')
     plt.title('Actual vs Predicted comfirmed cases')
-    plt.savefig('plot_xgboost(79%).png')
+    plt.savefig('plot_xgboost.png')
     plt.close()
 
     wandb.log({"chart": wandb.Image('plot_xgboost.png')})
