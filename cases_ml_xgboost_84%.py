@@ -5,8 +5,6 @@ import xgboost as xgb
 from sklearn.metrics import mean_absolute_error, mean_squared_error, make_scorer
 import wandb
 import matplotlib.pyplot as plt
-import matplotlib
-
 def calculate_mape(y_true, y_pred, epsilon=1e-10):
     y_true, y_pred = np.array(y_true), np.array(y_pred)
     non_zero_mask = (y_true != 0) & (y_pred != 0)

@@ -1,4 +1,4 @@
-#!/Users/chenbaiyan/Desktop/ml_test/.venv/bin/python
+#!/Users/chenbaiyan/Desktop/ml_test/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
