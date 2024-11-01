@@ -55,9 +55,9 @@ def main():
     mae = mean_absolute_error(y_test, y_pred)
     mape = calculate_mape(y_test, y_pred)
 
-    print(f"均方误差 (MSE): {mse:.2f}")
-    print(f"平均绝对误差 (MAE): {mae:.2f}")
-    print(f"最终模型 MAPE: {mape:.2f}%")
+    print(f"(MSE): {mse:.2f}")
+    print(f"(MAE): {mae:.2f}")
+    print(f"MAPE: {mape:.2f}%")
 
     # 可视化
     plt.figure(figsize=(10,6))
